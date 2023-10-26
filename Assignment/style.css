@@ -1,0 +1,53 @@
+/* 1- Navbar with 2 level drop-down-- */
+nav ul {
+    list-style: none;
+    padding: 0;
+    background-color: #333;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Style the first-level dropdown */
+nav ul li:hover .submenu {
+    display: block;
+}
+
+/* Style the second-level dropdown */
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #555;
+}
+
+.submenu li {
+    display: block;
+}
+
+.submenu li a {
+    padding: 10px 20px;
+}
+
+/* Hover effect for submenu items */
+.submenu li:hover {
+    background-color: #444;
+}
+
+
+/* 2- Marque in top down */
+.outlined-div {
+    border: 2px solid #000; /* Adds a solid black border */
+    padding: 10px; /* Adds some padding to the content */
+    width: 200px; /* Set the width to your desired size */
+}
